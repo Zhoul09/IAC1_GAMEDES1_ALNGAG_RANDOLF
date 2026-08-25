@@ -9,3 +9,9 @@ script = ExtResource("1_ig7tw")
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Hello Godot"
+
+[node name="PLAYER" type="Node2D" parent="." unique_id=545970101]
+
+[node name="CAMERA" type="Node2D" parent="PLAYER" unique_id=527368351]
+
+[node name="SCORE POINT" type="Node2D" parent="." unique_id=295665835]
