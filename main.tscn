@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://lsx8jeretc5h"]
+
+[ext_resource type="Script" uid="uid://bb2suve6ltk5d" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=1874148179]
+script = ExtResource("1_ig7tw")
+
+[node name="Label" type="Label" parent="." unique_id=602432849]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hello Godot"
+
+[node name="PLAYER" type="Node2D" parent="." unique_id=545970101]
+
+[node name="CAMERA" type="Node2D" parent="PLAYER" unique_id=527368351]
+
+[node name="SCORE POINT" type="Node2D" parent="." unique_id=295665835]
